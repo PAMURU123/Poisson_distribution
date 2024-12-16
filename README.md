@@ -1,4 +1,4 @@
-# Fitting Poisson  distribution
+# EXP 2: Fitting Poisson  distribution
 # Aim : 
 
 To fit poisson distribution for the arrival of objects per minute from the feeder
@@ -29,9 +29,9 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-```py
-Developed by : Priyanka.A
-Register number : 212222230113
+```python
+Developed by : PAMURU VENKATESH
+Register number : 24010537
 
 import numpy as np
 import math
@@ -69,9 +69,12 @@ if cal_chi2_sq<table_chi2:
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
  
-``` 
+```
 # Output : 
-![image](https://github.com/user-attachments/assets/15c0b6ee-a4e8-42ad-8943-bcc8e4ed788b)
+![280447781-c702cd34-e9b4-46de-9523-a5ee33bd577c](https://github.com/PriyankaAnnadurai/Poisson_distribution/assets/118351569/4d915f76-b588-451a-9f0e-9a98f675b4a8)
+
+
+
 # Results
 
 The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
